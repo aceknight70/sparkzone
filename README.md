@@ -1,14 +1,401 @@
-#Spark Zone# is a "Creative Social Operating System." It blends the features of a social network (like Twitter/X), a creative writing tool (like Wattpad), a tabletop virtual tabletop (like Roll20), and a trading card game (like Hearthstone), all wrapped in a gamified, neon-cyberpunk aesthetic.
-Here is the deep-dive explanation of every feature and page:
-1. Global Features & Architecture
-These features persist across the entire application.
-The "Spark" Economy:
-Currency: "Sparks" are the central currency. Users earn them by daily logins, winning card battles, or receiving "Gifts" on their posts.
-Usage: Sparks are used to buy Card Packs for the TCG, cosmetic items for Party rooms, or to unlock premium story features.
-Sonic Jukebox (Persistent Audio):
-A floating widget (bottom-right) that plays music continuously while the user navigates different pages.
-Functionality: Users can input YouTube URLs to stream audio. It features a visualizer animation and volume controls.
-Skynet (AI Safety & Moderation):
+🌌 Spark Zone
+
+An Immersive Social, Creative, and Interactive Universe
+
+Spark Zone is a next‑generation social platform where community, creativity, storytelling, and gameplay merge into living digital worlds. Instead of static posts and endless scrolling, Spark Zone offers shared spaces that feel alive — places you can enter, interact with, and shape alongside others.
+
+It is built for creators, role‑players, gamers, and online communities who want deeper connection, stronger identity, and meaningful interaction.
+
+
+---
+
+🚀 Core Vision
+
+Spark Zone redefines social interaction as a participatory experience.
+
+Users don’t simply consume content — they:
+
+Enter Worlds with their own lore and atmosphere
+
+Host Parties that adapt to social, cinematic, or gaming modes
+
+Tell Stories that feel like visual novels
+
+Battle and collect in Spark Clash, a built‑in TCG
+
+
+Every system is interconnected through a shared economy (Sparks) and a unified identity, creating a cohesive digital ecosystem rather than disconnected features.
+
+
+---
+
+🎨 Creative Studio (Image & Caption Editor)
+
+The Creative Studio is Spark Zone’s built‑in visual design tool, enabling users to create expressive content without leaving the app.
+
+What You Can Do
+
+Background Creation
+
+Choose from professionally designed templates
+
+Use AI image generation to create entirely new backgrounds on demand
+
+
+Advanced Caption Editing
+
+Drag, drop, rotate, and resize text freely
+
+Apply full color customization
+
+Layer captions precisely on top of images
+
+
+
+Why It Matters
+
+This tool empowers users to design:
+
+Story covers and chapter art
+
+World banners and announcements
+
+Party posters and mood visuals
+
+
+No external design software required.
+
+
+---
+
+🎉 The Playground — Party System (/party)
+
+The Playground is Spark Zone’s real‑time social hub. Parties act as temporary shared rooms where users can hang out, play, watch, or create together.
+
+🎭 The Stage (Adaptive Main View)
+
+At the center of every Party is The Stage, a dynamic space that changes behavior and layout depending on the selected mode.
+
+💬 Social Mode
+
+A collaborative moodboard experience
+
+Users drag and drop images, visuals, or references
+
+Ideal for sharing vibes, aesthetics, and inspiration
+
+
+🎬 Theatre Mode
+
+A synchronized video‑watching experience
+
+Built around a YouTube wrapper
+
+Perfect for movie nights, trailers, and group reactions
+
+
+🧙 Tabletop Mode (VTT)
+
+A grid‑based virtual tabletop
+
+Users place draggable Character Tokens
+
+Tokens display HP bars for gameplay clarity
+
+Includes an immersive 3D Dice Roller Tray
+
+
+Designed for tabletop RPGs, strategy games, and role‑play combat.
+
+🎙 Live Mode
+
+Real‑time video and audio streaming
+
+Optimized for casual conversation and live discussions
+
+Comparable to a “Just Chatting” experience
+
+
+🛍 Party Shop
+
+Each Party has its own themed shop
+
+Users can purchase room themes and decorative stickers
+
+All purchases use the Spark economy
+
+
+
+---
+
+🌍 World Viewer — Immersive Navigation
+
+Worlds are persistent, lore‑driven spaces that define Spark Zone’s identity layer.
+
+Immersion System
+
+When a user enters a World, the UI transforms
+
+Backgrounds shift to match the World’s banner
+
+Visual tone adapts to reinforce atmosphere and narrative
+
+
+Navigation Tools
+
+Atlas: An interactive map with clickable location pins
+
+Channel List: Structured navigation between World locations
+
+
+Contextual Chat + Lorebook
+
+Chatting inside a World unlocks the Lorebook Sidebar
+
+Users can instantly reference characters, locations, and lore
+
+No need to leave the conversation or break immersion
+
+
+
+---
+
+📖 Story Reader — Visual Novel Mode
+
+Stories in Spark Zone are designed to be experienced, not just read.
+
+Dynamic Reading Experience
+
+As users scroll, background images fade and transition
+
+Visuals change based on scenes defined by the author
+
+Creates a cinematic, visual‑novel‑like flow
+
+
+Interactive Codex
+
+Important keywords (characters, locations, terms) are underlined
+
+Hovering opens Codex Cards featuring:
+
+Character portrait or icon
+
+Name and short biography
+
+Relevant lore references
+
+
+
+This allows deep world‑building without overwhelming the reader.
+
+
+---
+
+⚔ Spark Clash — The Minigame
+
+Spark Clash is a fully integrated Trading Card Game (TCG) that lives inside Spark Zone.
+
+Core Battle System
+
+Match Type: Player vs AI (Cyber‑Construct)
+
+Resources:
+
+HP (Health Points)
+
+Shield (temporary protection)
+
+Mana (regenerates each turn)
+
+
+
+Card Mechanics
+
+Players draw cards each turn
+
+Mana is spent to play cards
+
+Card effects include:
+
+Direct damage
+
+Healing and recovery
+
+Shield and defensive boosts
+
+
+
+Elemental Identity
+
+Each card belongs to an element that influences its visuals and theme:
+
+Solar – aggressive, radiant, high‑impact
+
+Lunar – balanced, tactical, adaptive
+
+Void – disruptive, dark, high‑risk
+
+
+
+---
+
+🔨 The Forge — Card Progression System
+
+The Forge gives players full control over their card collection.
+
+Fusion
+
+Combine duplicate cards
+
+Upgrade card levels (Level 1 → Level 2)
+
+Higher levels improve stats and effectiveness
+
+
+Recycle
+
+Destroy unwanted cards
+
+Convert them back into Sparks
+
+
+Deck Builder
+
+Create custom decks of 10 cards
+
+Build strategies from your personal inventory
+
+
+Card Shop
+
+Purchase Booster Packs using Sparks:
+
+Basic Packs
+
+Elemental Packs
+
+Ultra Packs
+
+
+Opening packs triggers animated reveal sequences
+
+
+
+---
+
+👤 Profile & Community Systems
+
+User Profile
+
+Avatar and banner customization
+
+Achievement and premium Badges
+
+
+Wallet
+
+Displays Spark balance
+
+Full transaction history for transparency
+
+
+Creator Showcase
+
+Published Characters
+
+Stories
+
+Worlds
+
+
+Social Graph
+
+Followers and Following lists
+
+
+
+---
+
+🛡 Communities (Guilds)
+
+Communities are structured groups built around shared interests, fandoms, or projects.
+
+Community Features
+
+Role‑based management (Leaders, Officers, Members)
+
+Private, members‑only social feed
+
+Community XP System:
+
+Activity generates XP
+
+Leveling unlocks new features (e.g., custom banners)
+
+
+
+
+---
+
+💠 Sparks — The Unified Economy
+
+Sparks are the backbone of Spark Zone’s ecosystem.
+
+Used For
+
+Party cosmetics and themes
+
+Spark Clash booster packs
+
+Card fusion and recycling
+
+Visual customization
+
+
+Earned Through
+
+Platform activity
+
+Gameplay participation
+
+Community engagement
+
+
+
+---
+
+✨ Why Spark Zone Stands Out
+
+Combines social, creative, and gaming systems into one platform
+
+Prioritizes immersion over passive scrolling
+
+Encourages identity, ownership, and creativity
+
+Designed to scale with new Worlds, modes, and systems
+
+
+
+---
+
+📌 Platform Status
+
+Spark Zone is an evolving platform with planned expansion across:
+
+New World types
+
+Additional Party modes
+
+Expanded Spark Clash content
+
+Creator monetization tools
+
+
+
+---
+
+Spark Zone is not just an app — it’s a universe you participate in. 🌠Skynet (AI Safety & Moderation):
 An integrated AI moderation layer using Google Gemini.
 Defense System: When users create Worlds or Characters, they can configure a "Defense Level" (Everyone, Teen, Mature). Skynet scans content and flags inappropriate tags (Violence, Horror, etc.).
 Intervention: If a user posts banned content, a "Skynet Intervention" modal appears, warning the user or locking them out if they are repeat offenders.
